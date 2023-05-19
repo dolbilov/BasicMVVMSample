@@ -1,5 +1,6 @@
 <Window
     Icon="/Assets/avalonia-logo.ico"
+    Padding="10"
     Title="BasicMVVMSample"
     d:DesignHeight="450"
     d:DesignWidth="800"
@@ -16,4 +17,12 @@
         <vm:MainWindowViewModel />
     </Design.DataContext>
 
+    <StackPanel Spacing="10">
+        <TextBlock Text="Enter your name:" />
+        <TextBox Text="{Binding Name}" />
+        <TextBox
+            FontWeight="Bold"
+            IsReadOnly="True"
+            Text="{Binding Greeting, Mode=OneWay}" />
+    </StackPanel>
 </Window>
