@@ -1,13 +1,14 @@
-<Application xmlns="https://github.com/avaloniaui"
-             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="using:BasicMVVMSample"
-             x:Class="BasicMVVMSample.App">
+<Application
+    x:Class="BasicMVVMSample.App"
+    xmlns="https://github.com/avaloniaui"
+    xmlns:local="using:BasicMVVMSample"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
 
     <Application.DataTemplates>
-        <local:ViewLocator/>
+        <local:ViewLocator />
     </Application.DataTemplates>
 
     <Application.Styles>
-        <FluentTheme Mode="Light"/>
+        <FluentTheme />
     </Application.Styles>
 </Application>
