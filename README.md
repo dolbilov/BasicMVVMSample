@@ -68,9 +68,6 @@ Basic sample to learn about MVVM.
 
 🏁 The project is fully completed. No further development planned. 🏁
 
-<!-- Contributions, issues and feature requests are welcome.
-Feel free to check [issues page](https://github.com/dolbilov/dont-get-wet/issues) if you want to contribute. -->
-
 ## 👤 **Author - Kirill Dolbilov**
 
 - Telegram: [@kdolbilov](https://t.me/kdolbilov)
